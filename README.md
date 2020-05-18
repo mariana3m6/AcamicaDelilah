@@ -3,12 +3,14 @@
 Delilah Restó es una aplicación para realizar delivery de comida: permite administrar listas de clientes, productos y ordenes del restaurant.  
 
 ## Instalación de servidor Express:  
+```sh
 Instalar NodeJs
 Instalar ExpressJS : npm i express
 Configurar el servidor (como figura en el proyecto) : 
   const express = require('express')
   const app = express();
   app.listen(3000, () => {console.log('servidor iniciando...')}) 
+```
 
 ## Dependencias utilizadas:
 ```sh
@@ -18,11 +20,14 @@ Configurar el servidor (como figura en el proyecto) :
 ```
 
 ## Set up de la base de datos: 
+```sh
 Inicializar phpMyAdmin 
 Crear una base de datos llamada "delilah"
 Crear todo las tablas insertando manualmente las queries que se encuentran en el archivo delilah.sql 
+```
 
 ## Rutas/endpoints: 
+```sh
 /register (POST para registrarse, espera recibir "username", "fullname", "email", "phone", "address" y "password"
 /login (POST para login de usuario, espera recibir "username" y "password")
 /admin/:userId (PUT acceso exclusivo del admin, para denominar generar nuevos admins, espera recibir "isAdmin":1)
@@ -40,3 +45,4 @@ Crear todo las tablas insertando manualmente las queries que se encuentran en el
 /orders/:ordersId (GET acceso exclusivo de un usuario registrado o admin, para visualizar una orden especifica)
 /orders/:ordersId (PUT acceso exclusivo del admin, para modificar una order especifica, espera recibir "status")
 /orders/:ordersId (DELETE acceso exclusivo del admin, para eliminar una orden especifica)
+```
