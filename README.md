@@ -11,9 +11,11 @@ Configurar el servidor (como figura en el proyecto) :
   app.listen(3000, () => {console.log('servidor iniciando...')}) 
 
 ## Dependencias utilizadas:
+```sh
 -body-parser
 -sequelize
 -mysql2
+```
 
 ## Set up de la base de datos: 
 Inicializar phpMyAdmin 
