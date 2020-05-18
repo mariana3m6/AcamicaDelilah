@@ -32,6 +32,8 @@ sin password
 
 ## Rutas/endpoints: 
 ```sh
+El archivo Delilah.postman_collection.json contiene todos los endpoints de la API y los datos requeridos para cada una.
+
 /register (POST para registrarse, espera recibir "username", "fullname", "email", "phone", "address" y "password"
 /login (POST para login de usuario, espera recibir "username" y "password")
 /admin/:userId (PUT acceso exclusivo del admin, para denominar generar nuevos admins, espera recibir "isAdmin":1)
