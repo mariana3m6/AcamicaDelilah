@@ -48,5 +48,5 @@ sin password
 /orders (GET acceso exclusivo del admin, para visualizar todas las ordenes)
 /orders/:ordersId (GET acceso exclusivo de un usuario registrado o admin, para visualizar una orden especifica)
 /orders/:ordersId (PUT acceso exclusivo del admin, para modificar una order especifica, espera recibir "status")
-/orders/:ordersId (DELETE acceso exclusivo del admin, para eliminar una orden especifica)
+/orders/:ordersId (DELETE acceso exclusivo del admin, para eliminar una orden especifica que haya sido entregada o cancelada)
 ```
