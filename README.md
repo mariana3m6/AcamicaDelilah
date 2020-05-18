@@ -44,7 +44,7 @@ sin password
 /products/:id (PUT acceso exclusivo del admin, para modificar la info de un producto, espera recibir "price")
 /products/:id (DELETE acceso exclusivo del admin, para eliminar un producto especifico)
 
-/orders (POST acceso exclusivo de un usuario registrado o admin, para crear un pedido, espera recibir "productsId" y "amount")
+/orders (POST acceso exclusivo de un usuario registrado o admin, para crear un pedido, espera recibir un array de objetos que incluyan: "productsId", "amount" y "paymentMethod"
 /orders (GET acceso exclusivo del admin, para visualizar todas las ordenes)
 /orders/:ordersId (GET acceso exclusivo de un usuario registrado o admin, para visualizar una orden especifica)
 /orders/:ordersId (PUT acceso exclusivo del admin, para modificar una order especifica, espera recibir "status")
