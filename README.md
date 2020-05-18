@@ -24,6 +24,10 @@ Configurar el servidor (como figura en el proyecto) :
 Inicializar phpMyAdmin 
 Crear una base de datos llamada "delilah"
 Crear todo las tablas insertando manualmente las queries que se encuentran en el archivo delilah.sql 
+
+Datos especificos del proyecto: 
+Usuario: root@localhost
+sin password
 ```
 
 ## Rutas/endpoints: 
